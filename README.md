@@ -13,6 +13,7 @@ Kendiniz train etmek isterseniz tweetSentiment.py programı çalıştırılarak 
 Bundan sonra testModel.ipynb notebook'undaki
 
 ``filename = "output/model.bin"
+
 model = SentimentClassifier(2)
 model.load_state_dict(torch.load(filename))
 model = model.to(device)``
